@@ -2,5 +2,8 @@ pandas
 numpy
 scikit-learn
 matplotlib 
+sqlalchemy
+requests
+flask
 
 ##-e .
