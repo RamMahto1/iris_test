@@ -22,7 +22,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         try:
             # Load data from MySQL
-            df = load_iris_data(username='root', password='root', host='localhost', database='sales')
+            df = load_iris_data(username='none', password='none', host='localhost', database='sales')
             logging.info("Data loaded as DataFrame")
 
             # Make artifacts directory
